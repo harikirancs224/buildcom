@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.245 s <<< FAILURE! - in TestSuite
+testEasy(example.NewTest)  Time elapsed: 60.89 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <60.584624999999996>
+to be equal to:
+ <60.59>
+but was not.
+	at example.NewTest.testEasy(NewTest.java:126)
+
